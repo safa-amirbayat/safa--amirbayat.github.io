@@ -15,8 +15,13 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('C:\Users\Safa Amirbayat\Downloads\FinalFantasy-aa4m.woff') format('woff'),
+        ;
+}
+$TimesNewRoman: MyWebFont, Arial, sans-serif;
+$TimesNewRoman: MyWebFont, Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints
